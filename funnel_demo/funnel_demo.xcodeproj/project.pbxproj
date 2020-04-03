@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27125A1B71388D06306FB14C /* Pods_funnel_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DBD474944DB7DCBE8A165F /* Pods_funnel_demoTests.framework */; };
+		9514FF625A7C05061EFAF2C0 /* Pods_funnel_demo_funnel_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D7BA81E91FD15FBAADE9F9 /* Pods_funnel_demo_funnel_demoUITests.framework */; };
+		B8FE03472432EA070047303E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE03462432EA070047303E /* AppDelegate.m */; };
+		B8FE034A2432EA070047303E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE03492432EA070047303E /* SceneDelegate.m */; };
+		B8FE034D2432EA070047303E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE034C2432EA070047303E /* ViewController.m */; };
+		B8FE03502432EA070047303E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FE034E2432EA070047303E /* Main.storyboard */; };
+		B8FE03522432EA090047303E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8FE03512432EA090047303E /* Assets.xcassets */; };
+		B8FE03552432EA090047303E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FE03532432EA090047303E /* LaunchScreen.storyboard */; };
+		B8FE03582432EA090047303E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE03572432EA090047303E /* main.m */; };
+		B8FE03622432EA090047303E /* funnel_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE03612432EA090047303E /* funnel_demoTests.m */; };
+		B8FE036D2432EA090047303E /* funnel_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE036C2432EA090047303E /* funnel_demoUITests.m */; };
+		B8FE03832432EBDD0047303E /* FHXCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE03822432EBDD0047303E /* FHXCustomButton.m */; };
+		B8FE03862432EC720047303E /* FHXFunnelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE03852432EC720047303E /* FHXFunnelView.m */; };
+		B8FE03892432F16E0047303E /* FHXFunnelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE03882432F16E0047303E /* FHXFunnelModel.m */; };
+		B8FE038D2432F69C0047303E /* FHXChartNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE038B2432F69C0047303E /* FHXChartNoDataView.m */; };
+		B8FE038E2432F69C0047303E /* FHXChartNoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FE038C2432F69C0047303E /* FHXChartNoDataView.xib */; };
+		B8FE0391243311C60047303E /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE038F243311C60047303E /* UIColor+Extensions.m */; };
+		B8FE0394243314BB0047303E /* UIButton+HXEnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE0392243314BB0047303E /* UIButton+HXEnlargeTouchArea.m */; };
+		F0BAE21CE0D7B6D6D99E9594 /* Pods_funnel_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6439BFCE156C37A6D5372CBB /* Pods_funnel_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8FE035E2432EA090047303E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8FE033A2432EA070047303E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FE03412432EA070047303E;
+			remoteInfo = funnel_demo;
+		};
+		B8FE03692432EA090047303E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8FE033A2432EA070047303E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FE03412432EA070047303E;
+			remoteInfo = funnel_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DBD474944DB7DCBE8A165F /* Pods_funnel_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_funnel_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2213FC0BC0E2225A611EE29A /* Pods-funnel_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funnel_demo.debug.xcconfig"; path = "Target Support Files/Pods-funnel_demo/Pods-funnel_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		6439BFCE156C37A6D5372CBB /* Pods_funnel_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_funnel_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEE8F7A6E0B86244C08AA9B /* Pods-funnel_demo-funnel_demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funnel_demo-funnel_demoUITests.debug.xcconfig"; path = "Target Support Files/Pods-funnel_demo-funnel_demoUITests/Pods-funnel_demo-funnel_demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85D7BA81E91FD15FBAADE9F9 /* Pods_funnel_demo_funnel_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_funnel_demo_funnel_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F629BAE6CA9C5F73EB0E0CB /* Pods-funnel_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funnel_demo.release.xcconfig"; path = "Target Support Files/Pods-funnel_demo/Pods-funnel_demo.release.xcconfig"; sourceTree = "<group>"; };
+		AEF20949021964521C3035EE /* Pods-funnel_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funnel_demoTests.debug.xcconfig"; path = "Target Support Files/Pods-funnel_demoTests/Pods-funnel_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8FE03422432EA070047303E /* funnel_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funnel_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FE03452432EA070047303E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8FE03462432EA070047303E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8FE03482432EA070047303E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B8FE03492432EA070047303E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B8FE034B2432EA070047303E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8FE034C2432EA070047303E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8FE034F2432EA070047303E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8FE03512432EA090047303E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8FE03542432EA090047303E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8FE03562432EA090047303E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FE03572432EA090047303E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8FE035D2432EA090047303E /* funnel_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funnel_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FE03612432EA090047303E /* funnel_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = funnel_demoTests.m; sourceTree = "<group>"; };
+		B8FE03632432EA090047303E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FE03682432EA090047303E /* funnel_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funnel_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FE036C2432EA090047303E /* funnel_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = funnel_demoUITests.m; sourceTree = "<group>"; };
+		B8FE036E2432EA090047303E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FE03812432EBDD0047303E /* FHXCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHXCustomButton.h; sourceTree = "<group>"; };
+		B8FE03822432EBDD0047303E /* FHXCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHXCustomButton.m; sourceTree = "<group>"; };
+		B8FE03842432EC720047303E /* FHXFunnelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHXFunnelView.h; sourceTree = "<group>"; };
+		B8FE03852432EC720047303E /* FHXFunnelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHXFunnelView.m; sourceTree = "<group>"; };
+		B8FE03872432F16E0047303E /* FHXFunnelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHXFunnelModel.h; sourceTree = "<group>"; };
+		B8FE03882432F16E0047303E /* FHXFunnelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHXFunnelModel.m; sourceTree = "<group>"; };
+		B8FE038A2432F69C0047303E /* FHXChartNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHXChartNoDataView.h; sourceTree = "<group>"; };
+		B8FE038B2432F69C0047303E /* FHXChartNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHXChartNoDataView.m; sourceTree = "<group>"; };
+		B8FE038C2432F69C0047303E /* FHXChartNoDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHXChartNoDataView.xib; sourceTree = "<group>"; };
+		B8FE038F243311C60047303E /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		B8FE0390243311C60047303E /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		B8FE0392243314BB0047303E /* UIButton+HXEnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HXEnlargeTouchArea.m"; sourceTree = "<group>"; };
+		B8FE0393243314BB0047303E /* UIButton+HXEnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HXEnlargeTouchArea.h"; sourceTree = "<group>"; };
+		E11B90EFA229E8692088ABA3 /* Pods-funnel_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funnel_demoTests.release.xcconfig"; path = "Target Support Files/Pods-funnel_demoTests/Pods-funnel_demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE68538E5EDDA2B7D174A6BB /* Pods-funnel_demo-funnel_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-funnel_demo-funnel_demoUITests.release.xcconfig"; path = "Target Support Files/Pods-funnel_demo-funnel_demoUITests/Pods-funnel_demo-funnel_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8FE033F2432EA070047303E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BAE21CE0D7B6D6D99E9594 /* Pods_funnel_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FE035A2432EA090047303E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27125A1B71388D06306FB14C /* Pods_funnel_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FE03652432EA090047303E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9514FF625A7C05061EFAF2C0 /* Pods_funnel_demo_funnel_demoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D4448EAF1F42EBEA774C42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6439BFCE156C37A6D5372CBB /* Pods_funnel_demo.framework */,
+				85D7BA81E91FD15FBAADE9F9 /* Pods_funnel_demo_funnel_demoUITests.framework */,
+				04DBD474944DB7DCBE8A165F /* Pods_funnel_demoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		988AFE958E8D47EAC886E114 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2213FC0BC0E2225A611EE29A /* Pods-funnel_demo.debug.xcconfig */,
+				9F629BAE6CA9C5F73EB0E0CB /* Pods-funnel_demo.release.xcconfig */,
+				7CEE8F7A6E0B86244C08AA9B /* Pods-funnel_demo-funnel_demoUITests.debug.xcconfig */,
+				FE68538E5EDDA2B7D174A6BB /* Pods-funnel_demo-funnel_demoUITests.release.xcconfig */,
+				AEF20949021964521C3035EE /* Pods-funnel_demoTests.debug.xcconfig */,
+				E11B90EFA229E8692088ABA3 /* Pods-funnel_demoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8FE03392432EA070047303E = {
+			isa = PBXGroup;
+			children = (
+				B8FE03442432EA070047303E /* funnel_demo */,
+				B8FE03602432EA090047303E /* funnel_demoTests */,
+				B8FE036B2432EA090047303E /* funnel_demoUITests */,
+				B8FE03432432EA070047303E /* Products */,
+				988AFE958E8D47EAC886E114 /* Pods */,
+				75D4448EAF1F42EBEA774C42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8FE03432432EA070047303E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE03422432EA070047303E /* funnel_demo.app */,
+				B8FE035D2432EA090047303E /* funnel_demoTests.xctest */,
+				B8FE03682432EA090047303E /* funnel_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8FE03442432EA070047303E /* funnel_demo */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE037A2432EA470047303E /* funnel */,
+				B8FE03452432EA070047303E /* AppDelegate.h */,
+				B8FE03462432EA070047303E /* AppDelegate.m */,
+				B8FE03482432EA070047303E /* SceneDelegate.h */,
+				B8FE03492432EA070047303E /* SceneDelegate.m */,
+				B8FE034B2432EA070047303E /* ViewController.h */,
+				B8FE034C2432EA070047303E /* ViewController.m */,
+				B8FE034E2432EA070047303E /* Main.storyboard */,
+				B8FE03512432EA090047303E /* Assets.xcassets */,
+				B8FE03532432EA090047303E /* LaunchScreen.storyboard */,
+				B8FE03562432EA090047303E /* Info.plist */,
+				B8FE03572432EA090047303E /* main.m */,
+			);
+			path = funnel_demo;
+			sourceTree = "<group>";
+		};
+		B8FE03602432EA090047303E /* funnel_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE03612432EA090047303E /* funnel_demoTests.m */,
+				B8FE03632432EA090047303E /* Info.plist */,
+			);
+			path = funnel_demoTests;
+			sourceTree = "<group>";
+		};
+		B8FE036B2432EA090047303E /* funnel_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE036C2432EA090047303E /* funnel_demoUITests.m */,
+				B8FE036E2432EA090047303E /* Info.plist */,
+			);
+			path = funnel_demoUITests;
+			sourceTree = "<group>";
+		};
+		B8FE037A2432EA470047303E /* funnel */ = {
+			isa = PBXGroup;
+			children = (
+				B8FE03812432EBDD0047303E /* FHXCustomButton.h */,
+				B8FE03822432EBDD0047303E /* FHXCustomButton.m */,
+				B8FE03842432EC720047303E /* FHXFunnelView.h */,
+				B8FE03852432EC720047303E /* FHXFunnelView.m */,
+				B8FE03872432F16E0047303E /* FHXFunnelModel.h */,
+				B8FE03882432F16E0047303E /* FHXFunnelModel.m */,
+				B8FE038A2432F69C0047303E /* FHXChartNoDataView.h */,
+				B8FE038B2432F69C0047303E /* FHXChartNoDataView.m */,
+				B8FE038C2432F69C0047303E /* FHXChartNoDataView.xib */,
+				B8FE0390243311C60047303E /* UIColor+Extensions.h */,
+				B8FE038F243311C60047303E /* UIColor+Extensions.m */,
+				B8FE0393243314BB0047303E /* UIButton+HXEnlargeTouchArea.h */,
+				B8FE0392243314BB0047303E /* UIButton+HXEnlargeTouchArea.m */,
+			);
+			path = funnel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8FE03412432EA070047303E /* funnel_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FE03712432EA090047303E /* Build configuration list for PBXNativeTarget "funnel_demo" */;
+			buildPhases = (
+				B9A91C46888FEF3169B65B71 /* [CP] Check Pods Manifest.lock */,
+				B8FE033E2432EA070047303E /* Sources */,
+				B8FE033F2432EA070047303E /* Frameworks */,
+				B8FE03402432EA070047303E /* Resources */,
+				628827861EAF379F17E32422 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = funnel_demo;
+			productName = funnel_demo;
+			productReference = B8FE03422432EA070047303E /* funnel_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8FE035C2432EA090047303E /* funnel_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FE03742432EA090047303E /* Build configuration list for PBXNativeTarget "funnel_demoTests" */;
+			buildPhases = (
+				AB5777B341E6EB75361F0A29 /* [CP] Check Pods Manifest.lock */,
+				B8FE03592432EA090047303E /* Sources */,
+				B8FE035A2432EA090047303E /* Frameworks */,
+				B8FE035B2432EA090047303E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8FE035F2432EA090047303E /* PBXTargetDependency */,
+			);
+			name = funnel_demoTests;
+			productName = funnel_demoTests;
+			productReference = B8FE035D2432EA090047303E /* funnel_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8FE03672432EA090047303E /* funnel_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FE03772432EA090047303E /* Build configuration list for PBXNativeTarget "funnel_demoUITests" */;
+			buildPhases = (
+				12400900A3567A5F685134FF /* [CP] Check Pods Manifest.lock */,
+				B8FE03642432EA090047303E /* Sources */,
+				B8FE03652432EA090047303E /* Frameworks */,
+				B8FE03662432EA090047303E /* Resources */,
+				404695168978C3FF89EEB252 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8FE036A2432EA090047303E /* PBXTargetDependency */,
+			);
+			name = funnel_demoUITests;
+			productName = funnel_demoUITests;
+			productReference = B8FE03682432EA090047303E /* funnel_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8FE033A2432EA070047303E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = xjc;
+				TargetAttributes = {
+					B8FE03412432EA070047303E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					B8FE035C2432EA090047303E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B8FE03412432EA070047303E;
+					};
+					B8FE03672432EA090047303E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B8FE03412432EA070047303E;
+					};
+				};
+			};
+			buildConfigurationList = B8FE033D2432EA070047303E /* Build configuration list for PBXProject "funnel_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8FE03392432EA070047303E;
+			productRefGroup = B8FE03432432EA070047303E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FE03412432EA070047303E /* funnel_demo */,
+				B8FE035C2432EA090047303E /* funnel_demoTests */,
+				B8FE03672432EA090047303E /* funnel_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8FE03402432EA070047303E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FE03552432EA090047303E /* LaunchScreen.storyboard in Resources */,
+				B8FE038E2432F69C0047303E /* FHXChartNoDataView.xib in Resources */,
+				B8FE03522432EA090047303E /* Assets.xcassets in Resources */,
+				B8FE03502432EA070047303E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FE035B2432EA090047303E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FE03662432EA090047303E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12400900A3567A5F685134FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-funnel_demo-funnel_demoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404695168978C3FF89EEB252 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-funnel_demo-funnel_demoUITests/Pods-funnel_demo-funnel_demoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-funnel_demo-funnel_demoUITests/Pods-funnel_demo-funnel_demoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-funnel_demo-funnel_demoUITests/Pods-funnel_demo-funnel_demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628827861EAF379F17E32422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-funnel_demo/Pods-funnel_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-funnel_demo/Pods-funnel_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-funnel_demo/Pods-funnel_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5777B341E6EB75361F0A29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-funnel_demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A91C46888FEF3169B65B71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-funnel_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8FE033E2432EA070047303E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FE034D2432EA070047303E /* ViewController.m in Sources */,
+				B8FE03832432EBDD0047303E /* FHXCustomButton.m in Sources */,
+				B8FE03892432F16E0047303E /* FHXFunnelModel.m in Sources */,
+				B8FE03472432EA070047303E /* AppDelegate.m in Sources */,
+				B8FE038D2432F69C0047303E /* FHXChartNoDataView.m in Sources */,
+				B8FE03582432EA090047303E /* main.m in Sources */,
+				B8FE0394243314BB0047303E /* UIButton+HXEnlargeTouchArea.m in Sources */,
+				B8FE03862432EC720047303E /* FHXFunnelView.m in Sources */,
+				B8FE034A2432EA070047303E /* SceneDelegate.m in Sources */,
+				B8FE0391243311C60047303E /* UIColor+Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FE03592432EA090047303E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FE03622432EA090047303E /* funnel_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FE03642432EA090047303E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FE036D2432EA090047303E /* funnel_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8FE035F2432EA090047303E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8FE03412432EA070047303E /* funnel_demo */;
+			targetProxy = B8FE035E2432EA090047303E /* PBXContainerItemProxy */;
+		};
+		B8FE036A2432EA090047303E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8FE03412432EA070047303E /* funnel_demo */;
+			targetProxy = B8FE03692432EA090047303E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8FE034E2432EA070047303E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FE034F2432EA070047303E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8FE03532432EA090047303E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FE03542432EA090047303E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8FE036F2432EA090047303E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8FE03702432EA090047303E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8FE03722432EA090047303E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2213FC0BC0E2225A611EE29A /* Pods-funnel_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funnel_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xjc.funnel-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8FE03732432EA090047303E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F629BAE6CA9C5F73EB0E0CB /* Pods-funnel_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funnel_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xjc.funnel-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8FE03752432EA090047303E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF20949021964521C3035EE /* Pods-funnel_demoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funnel_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xjc.funnel-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funnel_demo.app/funnel_demo";
+			};
+			name = Debug;
+		};
+		B8FE03762432EA090047303E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11B90EFA229E8692088ABA3 /* Pods-funnel_demoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funnel_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xjc.funnel-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funnel_demo.app/funnel_demo";
+			};
+			name = Release;
+		};
+		B8FE03782432EA090047303E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEE8F7A6E0B86244C08AA9B /* Pods-funnel_demo-funnel_demoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funnel_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xjc.funnel-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = funnel_demo;
+			};
+			name = Debug;
+		};
+		B8FE03792432EA090047303E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE68538E5EDDA2B7D174A6BB /* Pods-funnel_demo-funnel_demoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funnel_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xjc.funnel-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = funnel_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8FE033D2432EA070047303E /* Build configuration list for PBXProject "funnel_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FE036F2432EA090047303E /* Debug */,
+				B8FE03702432EA090047303E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FE03712432EA090047303E /* Build configuration list for PBXNativeTarget "funnel_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FE03722432EA090047303E /* Debug */,
+				B8FE03732432EA090047303E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FE03742432EA090047303E /* Build configuration list for PBXNativeTarget "funnel_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FE03752432EA090047303E /* Debug */,
+				B8FE03762432EA090047303E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FE03772432EA090047303E /* Build configuration list for PBXNativeTarget "funnel_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FE03782432EA090047303E /* Debug */,
+				B8FE03792432EA090047303E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8FE033A2432EA070047303E /* Project object */;
+}
